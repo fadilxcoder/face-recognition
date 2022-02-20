@@ -1,0 +1,23 @@
+#!/usr/bin/php
+<?php
+
+include './libs/faceModel.php';
+
+// $image1 = 'elon1.jpg';
+// $image1 = 'obama1.jpg';
+$image1 = 'fx1.jpg';
+
+// $image2 = 'elon' . rand(2, 3) . '.jpg';
+$image2 = 'obama' . rand(2, 3) . '.jpg';
+// $image2 = 'fx' . rand(2, 5) . '.jpg';
+
+$image_folder = './images/';
+
+$probability = compare($image_folder . $image1, $image_folder . $image2);
+
+// Compare is a function that takes 2 images and returns a probability match. 
+// Anything over 0.4 is considered a match.
+
+echo "\nComparing : $image1 v/s $image2 \n\n";
+
+echo $probability;
