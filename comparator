@@ -5,11 +5,15 @@ include './libs/faceModel.php';
 
 // $image1 = 'elon1.jpg';
 // $image1 = 'obama1.jpg';
-$image1 = 'fx1.jpg';
+// $image1 = 'fx1.jpg';
+$image1 = 'zk1.jpg';
 
 // $image2 = 'elon' . rand(2, 3) . '.jpg';
-$image2 = 'obama' . rand(2, 3) . '.jpg';
+// $image2 = 'obama' . rand(2, 3) . '.jpg';
 // $image2 = 'fx' . rand(2, 5) . '.jpg';
+
+# WEBCAM
+$image2 = 'web-cam-621526ce4baed.jpg';
 
 $image_folder = './images/';
 
